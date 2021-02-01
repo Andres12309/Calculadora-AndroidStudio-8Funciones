@@ -233,7 +233,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 case R.id.igual:
                     numeros[1]=Double.parseDouble(displayView);
                     if(restar=true){
-                        result=numeros[1]-numeros[2];
+                        result=numeros[1]-numeros[0];
                         display.setText(String.valueOf(result));
                     }
                     else if(suma==true){
@@ -245,6 +245,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         display.setText(String.valueOf(result));
                     }
                     else if(division==true){
+                        if(numeros[1]==0){
+                            display.setText("No divisible para cero");
+                            wait(10);
+                            display.setText("");
+                        }
                         result = numeros[0]/numeros[1];
                         display.setText(String.valueOf(result));
                     }
