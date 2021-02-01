@@ -4,7 +4,7 @@ _Calculadora con 8 funciones incluido las operaciones basicas, desarrollada en A
 
 ## Introduccion 🚀
 
-_Este es un proyecto de calculadora basica con 8 funciones, incluye las operaciones fundamentales, ademas posee una interfaz propia para digitalizacion de datos.
+_Este es un proyecto de calculadora basica con 8 funciones, incluye las operaciones fundamentales, ademas posee una interfaz propia para digitalizacion de datos._
 
 ### Instrucciones 📋
 
